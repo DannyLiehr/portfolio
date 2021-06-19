@@ -1,0 +1,68 @@
+/* DEFAULTS */
+*
+    {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+.clear
+    {
+    clear:both;
+}
+
+.right
+    {
+    float: right;
+}
+
+.left
+    {
+    float: left;
+}
+.bordered{
+    border: 1px solid black;
+}
+.fadeinfast{
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.fadeinmed{
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.fadeinslow{
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+body {
+    /* animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; */
+}
+
+table, thead, tbody, th, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: .3em;
+}
+table{
+    width: 75vw;
+    max-width: 75vw;
+    margin: 0 auto;
+}
+td{
+    max-width: 10vw;
+}
+/* ANIMATION */
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
