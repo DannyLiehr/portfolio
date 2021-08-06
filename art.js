@@ -34,7 +34,7 @@ window.onload= function(){
     buildGallery("bex_sketches.jpg", "bex", "Sketches of the rapper, Bexey Swan.", "Bexey");
     buildGallery("christmas1.jpg", "xmas", "Deebee and Ram from my original series, Deebee's Inner Diary.", "Deebee- Happy Holidays 2020");
     buildGallery("d-day.jpg", "dday", "2D and Murdoc from Gorillaz, with a creepy twist.", "Gorillaz- D-Day");
-    buildGallery("2d_horror.jpg", "2Dproc", "2D from Gorillaz, drawn in procreate. His pose is meant to mimic Frankenstein. Part of a horror poster series.", "Horror Series- 2D");
+    buildGallery("2D_horror.jpg", "2Dproc", "2D from Gorillaz, drawn in procreate. His pose is meant to mimic Frankenstein. Part of a horror poster series.", "Horror Series- 2D");
     buildGallery("murdoc_bateman.jpg", "Murdoc", "Murdoc Niccals from Gorillaz, drawn in procreate. His pose is meant to mimic Patrick Bateman from American Psycho. Part of a horror poster series.", "Horror Series- Murdoc");
     buildGallery("grocerystore.jpg", "groc", "A liminal looking grocery store.", "Hey, did we get everything?");
     buildGallery("6lack_pinkph.jpg", "6lack", "The rapper, 6lack, in the music video The Pink Phantom.", "The Pink Phantom");
