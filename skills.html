@@ -15,30 +15,42 @@
   <link href="styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <h1>Skills</h1>
-    <form>
-        <label for="skill">Select a skill. You can also type in a skill.</label>
-            <input list="skill" name="skills" id="skillSelect" class="bordered" onchange="presentSkills()">
-            <datalist id="skill">
-              <option value="Software Engineering">
-              <option value="Fine Arts">
-              <option value="Graphic Design">
-              <option value="Customer Service">
-            </datalist>
-    </form>
-    <table id="skilltable" class="bordered">
-        <thead>
-          <tr>
-            <th>Skill</th>
-            <th>Hard or Soft Skill</th>
-            <th>Description</th>
-            <th>Years Experience</th>
-          </tr>
-      </thead>
-      <tbody id="skilllist" class="fadeinfast">
-          <tr><td colspan="4">Awaiting input.</td></tr>
-      </tbody>
-    </table>
-    <script type="text/javascript" src="./skills_js.js"></script>
+      <nav>
+          <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./skills.html">Skills</a></li>
+              <li><a href="./art.html">Art</a></li>
+              <li><a href="./contact.html">Contact Me</a></li>
+          </ul>
+      </nav>
+
+    <section id="wrapper">
+        <h1 class="centeredtxt">Skills</h1>
+        <form class="centeredtxt">
+            <label for="skill">Select a skill.<br/></label>
+                <select id="skillSelect" onchange="presentSkills()">
+                  <option disabled selected>Select a Category...</option>
+                  <option value="Software Engineering">Software Engineering</option>
+                  <option value="Fine Arts">Fine Arts</option>
+                  <option value="Graphic Design">Graphic Design</option>
+                  <option value="Customer Service">Customer Service</option>
+                  <option value="See All...">See All...</option>
+                </select>
+        </form>
+        <table id="skilltable">
+            <thead>
+              <tr>
+                <th>Skill</th>
+                <!-- <th>Hard or Soft Skill</th> -->
+                <th>Description</th>
+                <th>Years Experience</th>
+              </tr>
+          </thead>
+          <tbody id="skilllist" class="fadeinfast">
+              <tr><td colspan="3">Awaiting input.</td></tr>
+          </tbody>
+        </table>
+        <script type="text/javascript" src="./skills_js.js"></script>
+    </section>
   </body>
 </html>
