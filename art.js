@@ -47,7 +47,7 @@ window.onload= function(){
     buildGallery("6lack_pinkph.jpg", "6lack", "The rapper, 6lack, in the music video The Pink Phantom.", "The Pink Phantom");
     buildGallery("bo-burnham.jpg", "boburnham", "Bo Burnham in his recent special, Inside. This is based on the song called Welcome to the Internet.", "Bo Burnham");
     buildGallery("2D2.jpg", "2Dsticker", "A sticker design of 2D from Gorillaz", "Sticker- 2D");
-    buildGallery("Murdoc2.jpg", "Murdocsticker", "A sticker design of Murdoc from Gorillaz", "Sticker- Murdoc");
-    buildGallery("Noodle2.jpg", "Noodlesticker", "A sticker design of Noodle from Gorillaz", "Sticker- Noodle");
-    buildGallery("Russ2.jpg", "Russsticker", "A sticker design of Russel from Gorillaz", "Sticker- Russel");
+    buildGallery("murdoc2.jpg", "Murdocsticker", "A sticker design of Murdoc from Gorillaz", "Sticker- Murdoc");
+    buildGallery("noodle2.jpg", "Noodlesticker", "A sticker design of Noodle from Gorillaz", "Sticker- Noodle");
+    buildGallery("russ2.jpg", "Russsticker", "A sticker design of Russel from Gorillaz", "Sticker- Russel");
 }
