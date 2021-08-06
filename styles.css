@@ -139,9 +139,17 @@ body {
 #wrapper{
     max-width: 80vw;
     width: 80vw;
+    min-height: 70vh;
     margin: 0 auto 1em auto;
-    padding: .5em;
+    padding: 2em;
     background-color: var(--col6);
+}
+#wrapper p{
+    text-indent: calc(2em);
+    margin: calc(3em) 0;
+}
+#wrapper img{
+    margin: calc(3em);
 }
 
 /* PRE-DEFINED CLASSES */
