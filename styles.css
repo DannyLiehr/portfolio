@@ -148,6 +148,10 @@
     color: var(--col5);
 }
 
+.gamelist li{
+    margin: 2em;
+}
+
 /* IDs */
 
 #wrapper{
