@@ -4,10 +4,13 @@ var currentYear= new Date().getFullYear();
 
 var skills = [
     {name: "Javascript", type: "Hard Skill", desc: "Computer programming using Javascript. Includes Object Oriented Programming.", category: ['Software Engineering'], years: (currentYear-2017)},
+    {name: "Java", type: "Hard Skill", desc: "Computer programming using Java. Includes other skills like REST and using Android Studio.", category: ['Software Engineering'], years: (currentYear-2017)},
     {name: "Python", type: "Hard Skill", desc: "Computer programming using Python. Includes Object Oriented Programming.", category: ['Software Engineering'], years: (currentYear-2018)},
     {name: "Lua", type: "Hard Skill", desc: "Computer programming using Lua.", category: ['Software Engineering'], years: (currentYear-2015)},
     {name: "PHP", type: "Hard Skill", desc: "Website creation using PHP.", category: ['Software Engineering'], years: (currentYear-2019)},
     {name: "Bash", type: "Hard Skill", desc: "Basic scripting using Bash.", category: ['Software Engineering'], years: (currentYear-2018)},
+    {name: "REST API", type: "Hard Skill", desc: "Querying data using GET/POST requests. Can use APIs in Python, JS, and PHP. Has used REST with Java.", category: ['Software Engineering'], years: (currentYear-2019)},
+    {name: "SEO (Search Engine Optimization)", type: "Hard Skill", desc: "Using keywords, improving backend and using semantically correct HTML to put a page onto Google.", category: ['Software Engineering'], years: (currentYear-2018)},
     {name: "Illustration", type: "Hard Skill", desc: "Producing images of a subject either traditionally or digitally. Includes traditional illustration and Adobe Illustrator.", category: ['Graphic Design', 'Fine Arts'], years: (currentYear-2014)},
     {name: "Creativity", type: "Soft Skill", desc: "The ability to use your imagination.", category: ['Graphic Design', 'Fine Arts', 'Software Engineering'], years: "Lifelong"},
     {name: "Adobe Illustrator", type: "Hard Skill", desc: "Producing vector images using Adobe Illustrator.", category: ['Graphic Design'], years: (currentYear-2013)},
